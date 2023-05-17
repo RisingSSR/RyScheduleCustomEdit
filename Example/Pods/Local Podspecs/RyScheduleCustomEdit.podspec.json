@@ -1,0 +1,36 @@
+{
+  "name": "RyScheduleCustomEdit",
+  "version": "0.1.0",
+  "summary": "掌邮自定义课表编辑页面",
+  "description": "掌邮自定义课表编辑页面，需要数据源相关信息。",
+  "homepage": "https://github.com/RisingSSR/RyScheduleCustomEdit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RisingSSR": "2769119954@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/RisingSSR/RyScheduleCustomEdit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "RyScheduleCustomEdit/Classes/**/*",
+  "dependencies": {
+    "WCDB": [
+      "1.1.0"
+    ],
+    "RyScheduleCourseOC": [
+
+    ],
+    "RyCyxbsThirdEX": [
+
+    ],
+    "RyTransitioningDelegate": [
+
+    ]
+  }
+}
