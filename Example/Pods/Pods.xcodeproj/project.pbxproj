@@ -12,7 +12,6 @@
 		01BCAC0C951EFA847F36D29EC2C06EDC /* rwlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBABC30B3E4D761C995AC3D8B10969AB /* rwlock.cpp */; };
 		03BD9CCECC3383A08AE7203C86C1FA71 /* WCTDatabase+Compatible.h in Headers */ = {isa = PBXBuildFile; fileRef = B354B31B8FFC6FCBD143B6D6D402CAE6 /* WCTDatabase+Compatible.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0435627BF11A2D7E1082FF3D5F5465EB /* NSDate+WCTColumnCoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F91B58C1B140D108F60BBF634DA5461 /* NSDate+WCTColumnCoding.mm */; };
-		050D60DB556B697E90456204D8304EDB /* RyScheduleCustomEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AF0870727F8A307992DFF4143ED3EB /* RyScheduleCustomEdit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0521FD092414F29B655D77E366ED044A /* sqliterk_values.h in Headers */ = {isa = PBXBuildFile; fileRef = 383D6DC698D5E494B642E79F471190EA /* sqliterk_values.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		06207287479032F6187602667C1837B6 /* WCTORM.h in Headers */ = {isa = PBXBuildFile; fileRef = 7795D0DAC2B34CFD5859D645F34316B5 /* WCTORM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		067F7DBA8F35425A3B5E541FA01D2B88 /* WCTSelectBase+WCTExpr.h in Headers */ = {isa = PBXBuildFile; fileRef = 1166FF700B31996E3A79CC771DDEFDB7 /* WCTSelectBase+WCTExpr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,10 +51,11 @@
 		16AC72C1518B7B438CF09E2F651DFA19 /* subquery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C02A8DA6B655A106D0F837D9A611FB /* subquery.cpp */; };
 		17B0B3467D793ABC46A57F59168C0150 /* WCTTable.h in Headers */ = {isa = PBXBuildFile; fileRef = AA659C33DCE7151FF8BE9ADB8AABF15D /* WCTTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CC4234EF1F1D2719FA4B19857551EE /* UIImageView+AFNetworking.m */; };
-		1901ECC16E3CB218E27B7CA87C8CE31C /* DrivenInteractiveTransitionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EC421E9AABAF02DD91C6A8464CC553 /* DrivenInteractiveTransitionSupport.m */; };
 		193029D18079D1A3E0572D2F3C369DF2 /* WCTError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52439890A471C62BA639D819B27F126E /* WCTError.mm */; };
 		194F7FFD1DF6A7A29D1B1B4ADE1A0BE6 /* WCTDatabase+Core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38F464D20732F4BADF1AB4EB5666FA0A /* WCTDatabase+Core.mm */; };
 		1982857DA477B9420C78F288A64EAF96 /* WCTUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49640329BD83DB028C906F38B3CFC2AD /* WCTUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A395392EFD5CA832B99CEBC903DE1F8 /* AnimatedTransitioningSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 437FD7ACE62B80EEF868C6CC6172AFD8 /* AnimatedTransitioningSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A46F8DEFEF08BB7626277C5F9D12ACD /* RyScheduleCustomEdit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A92AC05069EB2A724585BAFFBE5743 /* RyScheduleCustomEdit-dummy.m */; };
 		1A517EF6BC10EF235CEDFFA3675AF2B4 /* userauth.c in Sources */ = {isa = PBXBuildFile; fileRef = 0627244301411098CBAD958A9E6560B1 /* userauth.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1AAE4CAE5B734971261B01BA887D3023 /* WCTSequence.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E82CBD6D2FB5836F9CCC594BD2D80 /* WCTSequence.mm */; };
 		1BFCDAF9F9E165861E687AAD2197439F /* statement_delete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E714701D6689349D28BDB0029032753 /* statement_delete.cpp */; };
@@ -76,7 +76,6 @@
 		20B786B6D456D662837071B6E8EECCB7 /* NSString+WCTColumnCoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FA25EFB49E85ABCEE1C821C66ABAF /* NSString+WCTColumnCoding.mm */; };
 		22082B6F6D048E90E9277BC6635C8F39 /* WCTTransaction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 098AD5C809AA0FDF9AEF713985ED682E /* WCTTransaction.mm */; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D9B8709BA2DD8DBE115AD027452AD3 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22CFA2AAB961CB2B7757068AA273ECD2 /* ScheduleCustomEditCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA1EC09FF7F1DCD7CDDCB38EB3E0F01 /* ScheduleCustomEditCollectionViewCell.m */; };
 		2329B2410F00D8DEA9650B774F62052E /* UITextField+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F600094F79F3CDD6022C060A61E1094 /* UITextField+DarkModeKit.swift */; };
 		2352B2986FD1CE40BA0294EEA8721615 /* WCTSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = E159080E9BE2BA556B513D93EF188C36 /* WCTSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2391F29651E3DFE428CD9FB72DE8006F /* column_index.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A5AAB5C5FDE46074452C728246567C47 /* column_index.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,7 +108,6 @@
 		2A6CE58BFF32D8AD4A9DE61869913DD4 /* handle_recyclable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B02E534329EBC8223D1076D5AD0AFC5A /* handle_recyclable.cpp */; };
 		2A7F7CD7132E67B4A250DB8911F8844D /* rtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB447A48D8D298DC3F6AD92CB57204C /* rtree.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2AE43852DDDDD40A949DD681759CA7E3 /* UISlider+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F539786938B56F0DE857EDB45C7BC /* UISlider+DarkModeKit.swift */; };
-		2B0F6971EAE70C7D35F55172FDB7FBC3 /* ScheduleCustomEditCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1E1D8159CB36BEFB084C8C68DE9801 /* ScheduleCustomEditCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B2C2986FA88BEAE3ADA6E3F00EAF82D /* vdbeaux.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EE269E63FCC77BE9EDB67F790343225 /* vdbeaux.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2B4F25B5BB0A28A88A05420BF5699843 /* ScheduleCombineItemSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98FCD2B1A662B43AC4872B803FAB621B /* ScheduleCombineItemSupport.mm */; };
 		2BACF8EB98DC5826E62B897294EDCE2F /* WCTUpdate+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 723D208B3321FEF5C7FE67312B626E42 /* WCTUpdate+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,11 +121,11 @@
 		2D9482F2D90F63EFB3155F038F3B2DA1 /* fts_module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB953B43C095EE1ED05AA14B4B8E7E /* fts_module.cpp */; };
 		2DBDFF4F28C4808C792D3CFC44C6405F /* vdbeblob.c in Sources */ = {isa = PBXBuildFile; fileRef = 5119F3D5E74A24F5BFB439F1B1E9DC00 /* vdbeblob.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2EA95E17506846DF8566F768BDEA04E0 /* NSString+Ry.h in Headers */ = {isa = PBXBuildFile; fileRef = 162A4255105042ED894578D2256D55D4 /* NSString+Ry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EBDE412E47105C1D539E8B1191AA560 /* RyScheduleCustomEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AF0870727F8A307992DFF4143ED3EB /* RyScheduleCustomEdit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F2B4846EE23BC9ED4CBA23D37FCCFCE /* fts_modules.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 053F74215C72B0A97B3203279C16B721 /* fts_modules.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		30068C0F5B2255CDA8CFEF4718DEF8AD /* WCTStatement+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DD45AB4B93E75C5C50B2D04FEFABE5 /* WCTStatement+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		300DE2B41BEC2BA517B5A07E872DA0AD /* insert.c in Sources */ = {isa = PBXBuildFile; fileRef = 689DA83BB3A7024B17A74E82C01B25F0 /* insert.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		304370071C4A1982F2A490E4C1A7D0A6 /* WCDBOptimizedSQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A92ED5A7553E002A2045A6BEE4EEF5E1 /* WCDBOptimizedSQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3101FDC75678564B4253D20BD1B2E8EA /* ScheduleCustomEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C4E1E18CDFF7AB07E870A7FE6D4104 /* ScheduleCustomEditView.m */; };
 		316B938E8B8B8780849201C4553C7C63 /* WCTInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C5670C05ABE04D528B888815DF8CDC8 /* WCTInterface.mm */; };
 		3234841B345EBC3B199B60929B680B5B /* fts5.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCD6142D2BA639B26F876701BB65A9 /* fts5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3246A4F044562578B19F9405C677BA36 /* statement_rollback.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 07667C3D3C620CECE939BE2DCBF1B0EE /* statement_rollback.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -176,6 +174,7 @@
 		42CC6DCE0FD7F4261A5AFD6859146099 /* WCTBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE50AD9F5850898FBAAC48D216A50BC /* WCTBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42D3633093C0D4132192C77EE48DB184 /* os_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = BD0E7D37EFBDF3757743A2CB9FB47AE1 /* os_unix.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		42E43C6A0602B3FC6DE4786C61749994 /* SQLiteRepairKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 385346A3BF82B7F99794B61BDE619BA7 /* SQLiteRepairKit-dummy.m */; };
+		43283EAA77449AEE6B7475B0AB173D92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		4516AB0B80B5C8C6A4F0335F4536A8F1 /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3570EB85F58F682E22DABB2BF7AF5A6B /* tokenizer.cpp */; };
 		4555A20C933C42217BB421BDF8DFFB90 /* WCTTokenizer+WCDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E0ADB19955431F445E6D5C68623FF81B /* WCTTokenizer+WCDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		461AD93D0749D3F1B1C0E547045059DA /* ticker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 68DCBB06BEE91F7EF921C647918E76AA /* ticker.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,12 +190,10 @@
 		49B4E062C330E1DF3EC0EA66382E7791 /* WCTCodingMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 15447086D33E04D39DEF7B2545F86539 /* WCTCodingMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C3EDCF2763B9E78E39B551102256EC /* WCTResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2FBD20192BD47E90885231383B5E132 /* WCTResult.mm */; };
 		4A2C849748767124DB790D92721F800E /* handle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23EF38A7151D8E1340CD027565DC4759 /* handle.cpp */; };
-		4A3566C00A354357734A938E178BC8BC /* RyTransitioningDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDC29017389BE5B68AF341E81140F7 /* RyTransitioningDelegate-dummy.m */; };
 		4AD2568B26E543D5E4A605EDCDC3EB09 /* FluentDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A065F163695B83A93236A14123A80D1 /* FluentDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ADB5BE8FD690D38B0BE9E2445F3B97F /* WCTTokenizer+WCDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5363C5CF1A4907287591E65B252BA4B /* WCTTokenizer+WCDB.mm */; };
 		4B11232DE97D1FCFA5F5793E80F802E7 /* error.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F86DF5718CA3EC1638239454093E359A /* error.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C3B2B96CB38C639162AF07FF3A552A0 /* WCTDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = C221531653EB1C8CBF5B20A936177875 /* WCTDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C6B318B613861F21304B37CDE2F0CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		4D3559C87B1A38BD5F91BDBB8988193C /* WCTColumnBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 98465312996C2FA13BA46B2D66BB3E9A /* WCTColumnBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D3A87FACEBCF7790FD9C0309425429C /* NSObject+WCTColumnCoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A98C677D97460CBF12AEBE19A09F0 /* NSObject+WCTColumnCoding.mm */; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D128BF034E72332891A870916694B /* AFNetworking-dummy.m */; };
@@ -207,7 +204,8 @@
 		4FD3CE5E71A789F41F43C343E218B332 /* column_def.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7C12D8BB2EE1E5BA9EC3F1CFE0DF4B6 /* column_def.cpp */; };
 		4FE96441F030CA1EF6787BF4E8DFE316 /* fault.c in Sources */ = {isa = PBXBuildFile; fileRef = 64A06D960555057883DAA1E2B891318A /* fault.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		50240DCA052EAF2CB6C50EA6C5C0C83C /* UIProgressView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8987ABC1A043D4EBE2A0AA77E8857 /* UIProgressView+DarkModeKit.swift */; };
-		50E70A0D304EF9AB31CD3FFCCD8C7BC1 /* TransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750943144CE772BBCB80D5C337078574 /* TransitioningDelegate.m */; };
+		5086A38E679DB89384183EAF29A0C7E9 /* RyScheduleCustomEdit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC192F5D1FF7A82EF238BCD49F5CA55 /* RyScheduleCustomEdit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50DDD79783B5C93A938A43EA2CC22EA8 /* DrivenInteractiveTransitionSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 753B54711F98349EA989D7DEA8D99F7B /* DrivenInteractiveTransitionSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51FB89410559DC4388254663F308C302 /* statement_release.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 770A034865680D0BE50D24BD77148888 /* statement_release.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		522B307CF814C948859587A23064F4C3 /* memjournal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBBA62CB307EE7A3E90E0FCA44DE93 /* memjournal.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		52A043E3AC06E7F0A873BE97F3794883 /* statement_select.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1012EE32DFD40FF33FA8604343352398 /* statement_select.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -237,9 +235,11 @@
 		5C6F45C2860AAB3F8A0002BB1B24CD11 /* whereexpr.c in Sources */ = {isa = PBXBuildFile; fileRef = 30FD37290690AF393647E6D17ED0BF73 /* whereexpr.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5DEA2C76F9306B7C752EE2729082AAB3 /* parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF57AB538DF2C264A7B6ADA78BD3B10 /* parse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E6EB76A97036FABC036B68607F71461 /* HttpTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1BDE5938663329629BF67FE04F7D33 /* HttpTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F27C0A9B7FA41148397D48CA61D2688 /* TransitioningDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0492CCE849100CD921853B07AA0942DE /* TransitioningDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F56CC13D413AD2FDEB1CA1A35C8D652 /* DMDynamicImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FA78CC28BDBE90196F9CE37EFF7C1E /* DMDynamicImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60175F75859C64F1F4E204DA45D70AFD /* conflict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CE0C50E916652ECCF507724F074309F3 /* conflict.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		6050A79B62D0002D80AF8E8F5F1E5B9B /* WCTDatabase+Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D36619EFC561A2A9EDE4C9E01183A2 /* WCTDatabase+Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F2EBCAFDC249F2CC71087232EAC9B9 /* ScheduleCustomEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 400FF6D4850F3075A6FD753B77C5A6E7 /* ScheduleCustomEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		628726DCE8F616E301D959CB0407914F /* WCDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DE0E63B2598AD7311EA4D82A56282A /* WCDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62BEBBEED07A558A03803E09FC7AE5F9 /* DMDynamicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B00551BB1A4CECFE04F09989564C /* DMDynamicImage.m */; };
 		6313C8BC10C2AC6AB729B4D96F305BEA /* WCTBaseAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = AB234B6389DCA1ACAC9FBB15118F5325 /* WCTBaseAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -257,6 +257,7 @@
 		66A1E49785CDC3691DC2D38C5DEE14EB /* RyCyxbsExtensionOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16209907E799DEF87E139C92AA17AEBB /* RyCyxbsExtensionOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66EDBD1E4CD64A9BDAA9595D861A184F /* database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E1A6C79BC58F52DBBFF8A7E8D0B470 /* database.cpp */; };
 		678A3934E8A9A3BBFE1825D464784F8E /* FluentDarkModeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DD97B3F93F97382AAC3C7F7ADD3448 /* FluentDarkModeKit-dummy.m */; };
+		682C10BF3399A31A6128E977BCA39801 /* ScheduleCustomEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C4E1E18CDFF7AB07E870A7FE6D4104 /* ScheduleCustomEditView.m */; };
 		6865068CF51C7D2681E12A0F3822A91C /* fts3.h in Headers */ = {isa = PBXBuildFile; fileRef = 3120AEEF7393DF3C0C5C5365906057BA /* fts3.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6871110AEF63F353F3B33A320E744902 /* sqliterk_crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B4846FB3F6216AC444BDB7FDD5B45E /* sqliterk_crypto.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		68F6ACEC0D2386265B986DD0DBD78B8D /* WCTStatement+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = A21B5BD6E36C287AE5C568BEACDD473D /* WCTStatement+Compatible.mm */; };
@@ -272,6 +273,7 @@
 		6D0C9CFD7E9D1BE12E314983D5427C2C /* WCTPropertyBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = B94E820C51493E645EEB4DDF40DBE21D /* WCTPropertyBase.mm */; };
 		6D80B8F9E6D3C795845161B2B179D154 /* UINavigationBar+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17FB45BC4FEAC359B267A16E6A865BF /* UINavigationBar+DarkModeKit.swift */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 989E47C39AEA86D1F99C487443EF1147 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA4DD22D1597CD28C32963B2C4EB823 /* ScheduleCustomEditCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1E1D8159CB36BEFB084C8C68DE9801 /* ScheduleCustomEditCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EE7832281D50D3D426D8A3709961192 /* fts3_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = D3ED095B372B30E21A9BEA5480F654C7 /* fts3_aux.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6F1D199C60F1AA666CC53CD8624086A5 /* UIColor+Ry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BECC715E7DE6B4D376E3636379BB843 /* UIColor+Ry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F48C0F18C40F77907AA7B771F6A734D /* WCTInterface+Convenient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F932AB3B368D55536973AF620AF5CC1 /* WCTInterface+Convenient.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -298,7 +300,6 @@
 		7919BF4E3428A05594909106768E63D7 /* SQLiteRepairKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9862AAE9BA2CE7887F560C44A2C263E7 /* SQLiteRepairKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7951F765A96680B60391441577885951 /* UIColor+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0127A4B10270422D07CE5E1E8632BB23 /* UIColor+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A74F6D10C064606B010E99DD871F757 /* vdbesort.c in Sources */ = {isa = PBXBuildFile; fileRef = 727C669060B6746CA2B5C24F8DCB5200 /* vdbesort.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B5A5800D0F76C7CE54177774EFD9276 /* ScheduleCustomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C776417251E24E1C6B0E69CDDF7845 /* ScheduleCustomViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B969145651D6B7EC067A553D75F345E /* WCTDatabase+Table.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A152D1481CFE036D7E2CA768004A53 /* WCTDatabase+Table.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA4709E2B32E763922B1780C6D28E3D /* subquery.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 71D466B28587F2519EBBEC9C71278F0F /* subquery.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BEF54707312C7681095D736390B3B63 /* tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23E089DCF9C2C85EA85BC27EC3250F11 /* tokenizer.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,12 +318,11 @@
 		810FC319C52DF28A28BCD77C73879E21 /* fts3_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = EAE398FBE034CAB5A5B33F10D0F334E7 /* fts3_porter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		81579F1E267DFED8643CB9DC68B67A69 /* order_term.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 988FB33500E3FC3EEC0CA9BEF3B73DC8 /* order_term.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		817AC4DCC946F7198B9CBBF894BB0B03 /* macro.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9D190EC4ED8B3D8C5C60BC647520B6C2 /* macro.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		81A2E10ACE1EAC2E6C069F892EB8C4CA /* AnimatedTransitioningSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4DFA0BD758D35C5BB57DDEF012A5F /* AnimatedTransitioningSupport.m */; };
 		81BFEEABF845A1CBA7D638B77E006080 /* WCTBinding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3220AB02B4410C87EDA3449F966B0 /* WCTBinding.mm */; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43356A7A474A186FCFD03A96826B4BE1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829EBAAB379CFEE706B374C79AFEA2F3 /* RyTransitioningDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDC29017389BE5B68AF341E81140F7 /* RyTransitioningDelegate-dummy.m */; };
 		82A083930C62FE9BB72C3AA93B91FB63 /* config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6423F61F00F03C97A1C07C70B506887 /* config.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		82ADB9652F000F671E4170BA949FFC27 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C59E5BDEEEF6F2AFAF76936152235B2 /* main.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8304ED14CC27344800B2DCC5CF1C63D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		8346857170F5F37627719A2B34C617E3 /* abstract.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0FE582DC1A8EBC709E2B04852CA457 /* abstract.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83CA68F36A0EBD97020F8BE68AD9BA1A /* ScheduleCollectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8AF40DD4D48DDFB5FE2D3FA5CA0D87 /* ScheduleCollectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		843F6A198275B12AEAF2D07C01723279 /* UIView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9F5A6ADA5DA1C11D29E76329E75B /* UIView+DarkModeKit.swift */; };
@@ -343,8 +343,8 @@
 		8A9FA184156FC3994B84C3FC8C58540B /* module_argument.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 349CD9BD9959BC2231513916A89B0985 /* module_argument.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B1F4CCEE40825F54FA4A05143CBB005 /* WCTStatistics+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E242CF8767B502C033307F8F92E6F99 /* WCTStatistics+Compatible.mm */; };
 		8B63F47A7165248F8069CD33762D705C /* database_transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A808ADAB3121F8BE61316D64C0C6574C /* database_transaction.cpp */; };
+		8BC3046412BDE1AFB09AFFE76651AFDE /* DrivenInteractiveTransitionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EC421E9AABAF02DD91C6A8464CC553 /* DrivenInteractiveTransitionSupport.m */; };
 		8C83E1A713E7542AA8EE8178C8A3EC68 /* FontName.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AD740E90DE238C9D23380CDD956D9C /* FontName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CF98DE7C9AD2ACA1A535936248964CF /* AnimatedTransitioningSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 437FD7ACE62B80EEF868C6CC6172AFD8 /* AnimatedTransitioningSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D2F4B62EF6062A349B0F46B28E0E367 /* statement_reindex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D48005293C1D2F3BD06D0B6BFC8082E5 /* statement_reindex.cpp */; };
 		8F1CE7E70B0D55703B71EA00455EE577 /* RyCyxbsThirdEX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 635D4055236BCAD88D6B7DCF33026CDE /* RyCyxbsThirdEX-dummy.m */; };
 		8F35E45570FE5C99F4327C036312001D /* UIImage+DarkModeKitSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86901155450577293698D73EC273B22F /* UIImage+DarkModeKitSwizzling.m */; };
@@ -366,6 +366,7 @@
 		953FF42B4F366F480AB39D306393C68B /* UIColor+RyDM.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF2D1B503F256661CFC08E45426651 /* UIColor+RyDM.m */; };
 		95F11E9804752D71A16EC2FBD737700A /* statement_recyclable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F45F09B8BF31ECAEB31A01FED6C28D14 /* statement_recyclable.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		962397B5C117A51340491DC250E6F8E4 /* vdbemem.c in Sources */ = {isa = PBXBuildFile; fileRef = C890846EEE905471A3C28FA9EE85589B /* vdbemem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		968DFC2EC5D749881DBCEF26C46C8BA0 /* AnimatedTransitioningSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4DFA0BD758D35C5BB57DDEF012A5F /* AnimatedTransitioningSupport.m */; };
 		975F030950D9364E945F1E4B20C6D840 /* pcache.c in Sources */ = {isa = PBXBuildFile; fileRef = AD08F0DFAFA53D56BD61BEED4036DA17 /* pcache.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		97891AAABA1526A6F36F073AB1D52C0B /* column_result.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EB4584E6E1D1B8AE1E43A8D0D185A463 /* column_result.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		979DF740CDBA1966791CCE4194ACDBD7 /* database_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4DD06DE0341B19123C83E5CE33608 /* database_config.cpp */; };
@@ -397,7 +398,6 @@
 		A16CD9390B1F2CBF718722E398DA777C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		A1718E671E82F53E3D962F73A092AD5E /* WCTError+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF89A2B1DAE415502B3C364B3C9D2D7 /* WCTError+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A185997C2673761AFE224FA5A9CBF407 /* statement_delete.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2956FCEF615C0A51F00AE857A4EDA660 /* statement_delete.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2949EC8E0C540FCDD2446A8794A134D /* TransitioningDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0492CCE849100CD921853B07AA0942DE /* TransitioningDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A30BE47353AD48D2015580E36E5089DC /* mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F1234AE28973D5C11C1EFF9027BD143 /* mutex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A317D868D75D2A4BC4959206DFD9A44F /* UIToolbar+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E6BFD52F63A2EFCE3C76273D06FA5 /* UIToolbar+DarkModeKit.swift */; };
 		A3251196C00B8ABBB08A5194B1D6704C /* vacuum.c in Sources */ = {isa = PBXBuildFile; fileRef = 72AA170141F0E2247142BF0A1309ADAB /* vacuum.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -446,13 +446,13 @@
 		BA89A4D28030DD1BC5E54287ADB9BB45 /* DMDynamicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D27A5E6EDFA721346971EB0A4127FAC5 /* DMDynamicColor.m */; };
 		BAB08D6748C698A6AA6DC7D6A2BFFE49 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD22195A6466589E53294A385E0F3D4 /* AFNetworkActivityIndicatorManager.m */; };
 		BB9D12382508C958FCE8617135F6AC4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590EC7411B844952E1A478A345CCBF5F /* UIKit.framework */; };
-		BCCD727C99326AAAA6E654F15AAE8DD9 /* RyTransitioningDelegate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93391B1DB96DA053E285C2C83061BA /* RyTransitioningDelegate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD5C867B622F060B1C1D0992800168A8 /* mem3.c in Sources */ = {isa = PBXBuildFile; fileRef = 67DF7FC1A94AD824BA4193B42E69F57F /* mem3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BE6BE36C9F84357BB7C18BC66D37BACA /* ScheduleCombineItemSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F339CE7758D90C6A050B70F5580DA9 /* ScheduleCombineItemSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1973C15F269FF1972A3AD75E9C68BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		C1ABE0E0952B0E497CD39F5DA49AE34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		C1B9679EADCF57090B3682BF6E61E83B /* UIView+Ry.h in Headers */ = {isa = PBXBuildFile; fileRef = F09A3A87FEFB550A00DA5CEED9034B95 /* UIView+Ry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C245ABC79760C56F005009BAC67BBBCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
+		C24CE58862CF2CF283F42C4EDB9D4702 /* TransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750943144CE772BBCB80D5C337078574 /* TransitioningDelegate.m */; };
 		C2921A813D28B1ABAB1166A0AF5346C8 /* dbstat.c in Sources */ = {isa = PBXBuildFile; fileRef = 627F982F3CE5516EFBC66BD375A8A53A /* dbstat.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C2ACD38B91138E9B8E85173228F0AC42 /* pragma.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A173BAF2F95E4979657A9C5AA500813 /* pragma.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C2CABD27D2028AD6F022385BE09F16E9 /* WCTPropertyMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D62FA9DE0406C0AB75E0661DC43D4324 /* WCTPropertyMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -461,7 +461,6 @@
 		C2E81ABD9F9BE44B70553EA007C89D54 /* DMDynamicColor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3F542957FE702569E2D390DB959565 /* DMDynamicColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C316DA8A44B11B685BBED193E0A9977D /* prepare.c in Sources */ = {isa = PBXBuildFile; fileRef = D3D54EFCFA2FD8EFB560DE765C3010C5 /* prepare.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C3449CB62CB0CAB2AE04C2A8CC8EE32E /* concurrent_list.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ACC8CC44EEB2B2447D7211F4D2C12105 /* concurrent_list.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		C358670C9D6F09678449BA09C12705AE /* ScheduleCustomEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 400FF6D4850F3075A6FD753B77C5A6E7 /* ScheduleCustomEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C40A6A5F8476E25B0FFE87D459FF0A15 /* WCTSelectBase+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA0C2358B4EE8BC0E41DB8C0B76057A /* WCTSelectBase+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C527094F06E7957C674F9609FAE3818B /* describable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39A7806FEDD617AEEEE78087A33D4B4F /* describable.cpp */; };
 		C5BAC20F1B337FC4318FAE9F9ACD1224 /* ScheduleMapModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4103F552E67EF51A360DC7CC8100B961 /* ScheduleMapModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -490,6 +489,7 @@
 		D27791A0D85E8B4EE39C003394DD6EF9 /* sqliterk_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739E4BD3EA7AC7D2938876866DBB2044 /* sqliterk_output.cpp */; };
 		D2D1B9C18FCE32EBD7C5521A78AEB4A3 /* path.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0AAD5A3AE8B166435DEED9F550D04F94 /* path.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2F7EF561F23E5D72F60FE17CD38B08A /* btree.h in Headers */ = {isa = PBXBuildFile; fileRef = 276133A977DE9DD1E4E368C27F8A0AA8 /* btree.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3549A11F143C9784B39E224DC1EDC3E /* ScheduleCustomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C776417251E24E1C6B0E69CDDF7845 /* ScheduleCustomViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D39B5802BD123FF81C22C45A26F1742C /* WCTDatabase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C78E511FE4006EC500183FA304778CC /* WCTDatabase.mm */; };
 		D3AAC66F6A43185EBF5A5DA3724DBECF /* WCDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BFE8A4A190530C48192EF653744B8E /* WCDB-dummy.m */; };
 		D3E56A141B6B15746D8236FACC21E6B3 /* sqliterk_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5791B44F4AC8E6EDDF7F0DBF7B8D8862 /* sqliterk_util.c */; };
@@ -527,7 +527,6 @@
 		E0311361DBA5A778C6A82118204FD938 /* statement_insert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 47B00F782090470927EC3B2282633956 /* statement_insert.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0657E4FD0490F8A7E636DACD78E795E /* Pods-RyScheduleCustomEdit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D418508807AD7E6ACC213AE38D4357 /* Pods-RyScheduleCustomEdit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0E3C32067B18F0936914D4FD633B57F /* UIImage+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E0B3BF2329F2C1EFA381512EB4ECAC /* UIImage+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0EDE062F02976C38DAB731D651BA56F /* RyScheduleCustomEdit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC192F5D1FF7A82EF238BCD49F5CA55 /* RyScheduleCustomEdit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E14611F85806973CF527970928DE5FB3 /* WCTInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D33143B1B36C0512C7007C0E3068AC4C /* WCTInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E160EF31C13B49156C3BD6CC00FD4630 /* backup.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C60F4D648F63B1BD6CDC3CBA132804 /* backup.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E1A81D3EC6B058A7709FE3D21D8C3642 /* fts3.c in Sources */ = {isa = PBXBuildFile; fileRef = C233284D327A6B4273E5B5E87224AB9B /* fts3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -556,6 +555,7 @@
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DCEA7B23EBB7E1A55CC8481CB270B8 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB9E3B7DD39F61C62A75A15D40127BE /* WCDBOptimizedSQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77894770F097CB3DA0C26C5BCAFDEBB /* WCDBOptimizedSQLCipher-dummy.m */; };
 		EDC191E7602531004CC0DFA6FE2AB829 /* vdbe.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D65ECCBDB7AF9A09775CC1E67834A1 /* vdbe.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE10950BBFDCEAC1E3EF7F39F87337D1 /* RyTransitioningDelegate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93391B1DB96DA053E285C2C83061BA /* RyTransitioningDelegate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE1EC8220931A7F9BA78B154B6D25772 /* mem5.c in Sources */ = {isa = PBXBuildFile; fileRef = E57DF0E11BDE96B98823788F3607D70E /* mem5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A97A938E02FA29C50B76835597EA97AD /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE4367E01C591C4F4C26DD997E959D92 /* sqliterk_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = A501F88F5096E496C22D52FBFE129689 /* sqliterk_crypto.c */; };
@@ -564,13 +564,14 @@
 		EFA08B976B730AF4E6B172C16CCA08CC /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC420B2DF6AC109D19747A3D2E8E28C /* config.cpp */; };
 		EFB9B92D36108B273B50FEEA80614F2B /* upsert.c in Sources */ = {isa = PBXBuildFile; fileRef = A4A580E1A15D934E911332878348D24B /* upsert.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EFE127292E16A30F82C70B658415C361 /* statement_attach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 095FB36A24C61CC8FC6E59DAE5E681FA /* statement_attach.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0B9A3970B7EE9AD602689DEB3808013 /* ScheduleCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD842F406EA96B00DC03229B6135070 /* ScheduleCustomViewController.m */; };
+		F08F7D6C0920760FCBDFE8ACFF3F7362 /* ScheduleCustomEditCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA1EC09FF7F1DCD7CDDCB38EB3E0F01 /* ScheduleCustomEditCollectionViewCell.m */; };
 		F1833DBBC3FB254C11349A670E12CEEE /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = E0ECDD67B3C7717CF573A89576338233 /* random.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1D31D83D922F032C11334022A6EC284 /* update.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ACF03E17AE42CCA2B8AEB69DEB828F3 /* update.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F22CF7FE5A04361BE6F9C82383A787AD /* ScheduleCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD842F406EA96B00DC03229B6135070 /* ScheduleCustomViewController.m */; };
 		F254C0BDE6F5D2D54940695CDEDF000E /* NSData+WCTColumnCoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5076639C2331634B8E85B0DDD775499B /* NSData+WCTColumnCoding.mm */; };
 		F25BE589314618BA2C479B195A738D85 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5719AA30D40179762D82C9362532E13A /* path.cpp */; };
 		F350624645C0854A0099F10E6611AA21 /* conflict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 281F5133900D18AC83F1A14FD53DE323 /* conflict.cpp */; };
-		F45B2311DF5D326F2507996457EED368 /* DrivenInteractiveTransitionSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 753B54711F98349EA989D7DEA8D99F7B /* DrivenInteractiveTransitionSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48AD2EA5CC6AF73794C15B3E9D98FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB0A6AB1E69C23631F3C24E5B925F4 /* Foundation.framework */; };
 		F51F02D5B31904F443096F54AA050C39 /* WCTMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CF834F6763FBA200EC3DC10C62B3CA /* WCTMaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F55A630B6CD19E43516284DB66EB1591 /* WCTSelectBase+WCTExpr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFA50700B008FE8466065E10EC31F3 /* WCTSelectBase+WCTExpr.mm */; };
 		F58EB84346FF5790D363459673FF445C /* database_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF2347E86901AF3BD56B1966D344D4 /* database_file.cpp */; };
@@ -579,7 +580,6 @@
 		F643D099D4B8924AF6D56C36B0C6B41F /* wal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCE21478B08D2B38DB98B3283003C03 /* wal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6BB8CD9194253AFEC227420975E5552 /* mutex_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = A6A7EFD21A5ED44E0CB235C83F62868F /* mutex_unix.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F75F8A9EBD406E7A28A12195B3236759 /* WCTTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 709A1216D5DF32A686E412B6E819EA48 /* WCTTable.mm */; };
-		F7A04C4A51993C92C29B58A1D7DC3CE5 /* RyScheduleCustomEdit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A92AC05069EB2A724585BAFFBE5743 /* RyScheduleCustomEdit-dummy.m */; };
 		F81627D85506AF5D32F0117058288B65 /* statement_alter_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7628DCD1CC5DBBDB4DBC1BEF1B2A841 /* statement_alter_table.cpp */; };
 		F8AD3AA49C249FAC7331C7B867F4A200 /* WCTDatabase+Transaction.mm in Sources */ = {isa = PBXBuildFile; fileRef = C177CF0568B377F67F79A912ED646D22 /* WCTDatabase+Transaction.mm */; };
 		F93C0C4DE2D2E6EC512838DE34B03381 /* column_type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAB8545155AF9299C3F608B8DB08D5D /* column_type.cpp */; };
@@ -604,13 +604,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EABDE92F90256E1E6C6333BCFDE5C58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0BFBA5F98E26B23ACA392E1FC9ABF14;
-			remoteInfo = RyScheduleCourseOC;
-		};
 		229E0ACA8FC5193BF4054FFB01F5E3EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -625,6 +618,13 @@
 			remoteGlobalIDString = 46B68FB361B0E581CECCA815555333A6;
 			remoteInfo = SQLiteRepairKit;
 		};
+		2CAFA693CAB9C2D695222FDB08AEC3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BFBA5F98E26B23ACA392E1FC9ABF14;
+			remoteInfo = RyScheduleCourseOC;
+		};
 		351A2AEE7D489B2F5D02F1D03D4D00F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -638,6 +638,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 490BB05995693B596E095755DB0DED81;
 			remoteInfo = RyCyxbsExtensionOC;
+		};
+		57A40004074272071142A8C0B33412BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC524CA2D5F9FCAA44546F9C57B460A;
+			remoteInfo = RyTransitioningDelegate;
 		};
 		5BA089A84DFC6A186D8CBD0DABB960BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -666,6 +673,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 490BB05995693B596E095755DB0DED81;
 			remoteInfo = RyCyxbsExtensionOC;
+		};
+		6A7D9DAFCCD8A519BE14A084DA94C266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1F28D25AAD9BD2F13D62F1794D7F6C;
+			remoteInfo = RyCyxbsThirdEX;
 		};
 		83443234F107FFD8AB45454BE2A19A37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -709,13 +723,6 @@
 			remoteGlobalIDString = 88280FCCAA3AE0C7640CB30F5A2E290F;
 			remoteInfo = WCDB;
 		};
-		C71C4816AA828DBA15C229302DB1FB34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC1F28D25AAD9BD2F13D62F1794D7F6C;
-			remoteInfo = RyCyxbsThirdEX;
-		};
 		CBA534BF777206BD44B392CEF63CB575 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -743,20 +750,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
-		};
-		E07AF49F9E7259C0F5CC2B1563654BF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88280FCCAA3AE0C7640CB30F5A2E290F;
-			remoteInfo = WCDB;
-		};
-		E089E7DDD3AFCAD9F9D5F58C2BEB29A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DC524CA2D5F9FCAA44546F9C57B460A;
-			remoteInfo = RyTransitioningDelegate;
 		};
 		FE9FA99070EF0F7C47D98EFD8E80B225 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1483,11 +1476,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707E561DF4002FE2FA88646F07A4376C /* Frameworks */ = {
+		668012DE7159EF76E8583F8239CE6012 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6B318B613861F21304B37CDE2F0CB2 /* Foundation.framework in Frameworks */,
+				43283EAA77449AEE6B7475B0AB173D92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1508,6 +1501,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDDFFBE3D0F7E73007DB53161B4D6C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AD2EA5CC6AF73794C15B3E9D98FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2ACFDBB0F01BE732A7B6EEE31417A62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1521,14 +1522,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA83099691F70D85C04AE21C0EBFDDC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9A3BF29A743E4C2C9520153FC1F0ECD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8304ED14CC27344800B2DCC5CF1C63D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2498,6 +2491,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		04CFB055F43ACC58927B7CFEFE282268 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A395392EFD5CA832B99CEBC903DE1F8 /* AnimatedTransitioningSupport.h in Headers */,
+				50DDD79783B5C93A938A43EA2CC22EA8 /* DrivenInteractiveTransitionSupport.h in Headers */,
+				EE10950BBFDCEAC1E3EF7F39F87337D1 /* RyTransitioningDelegate-umbrella.h in Headers */,
+				5F27C0A9B7FA41148397D48CA61D2688 /* TransitioningDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		166126C6552E5C65CFCEDA4C3859E606 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2592,23 +2596,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		206021B14DA5F07AE498B040228AC49A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBDE412E47105C1D539E8B1191AA560 /* RyScheduleCustomEdit.h in Headers */,
+				5086A38E679DB89384183EAF29A0C7E9 /* RyScheduleCustomEdit-umbrella.h in Headers */,
+				6EA4DD22D1597CD28C32963B2C4EB823 /* ScheduleCustomEditCollectionViewCell.h in Headers */,
+				60F2EBCAFDC249F2CC71087232EAC9B9 /* ScheduleCustomEditView.h in Headers */,
+				D3549A11F143C9784B39E224DC1EDC3E /* ScheduleCustomViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3343DC3940ADB753D4183BECF407F5DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				41E681FA0384F266056F93F10B131B2A /* Pods-RyScheduleCustomEdit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A4ACBDA3BBACA452CEBB00C6E2FDAD9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				050D60DB556B697E90456204D8304EDB /* RyScheduleCustomEdit.h in Headers */,
-				E0EDE062F02976C38DAB731D651BA56F /* RyScheduleCustomEdit-umbrella.h in Headers */,
-				2B0F6971EAE70C7D35F55172FDB7FBC3 /* ScheduleCustomEditCollectionViewCell.h in Headers */,
-				C358670C9D6F09678449BA09C12705AE /* ScheduleCustomEditView.h in Headers */,
-				7B5A5800D0F76C7CE54177774EFD9276 /* ScheduleCustomViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2813,17 +2817,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D60610BFF0828B5F631CDC2174AEA4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CF98DE7C9AD2ACA1A535936248964CF /* AnimatedTransitioningSupport.h in Headers */,
-				F45B2311DF5D326F2507996457EED368 /* DrivenInteractiveTransitionSupport.h in Headers */,
-				BCCD727C99326AAAA6E654F15AAE8DD9 /* RyTransitioningDelegate-umbrella.h in Headers */,
-				A2949EC8E0C540FCDD2446A8794A134D /* TransitioningDelegate.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC4CC889F605AC091D9023C59BB12F71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2892,12 +2885,12 @@
 		};
 		1DC524CA2D5F9FCAA44546F9C57B460A /* RyTransitioningDelegate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92165894B9A2D072FCBFCC66D0873D02 /* Build configuration list for PBXNativeTarget "RyTransitioningDelegate" */;
+			buildConfigurationList = 21E30DB7D0377349597BCDF60CAA75B1 /* Build configuration list for PBXNativeTarget "RyTransitioningDelegate" */;
 			buildPhases = (
-				A6D60610BFF0828B5F631CDC2174AEA4 /* Headers */,
-				939B00FD18EF06C04A12709B9543F9FD /* Sources */,
-				707E561DF4002FE2FA88646F07A4376C /* Frameworks */,
-				1A6D5C73D0F90EAE816DA522EEA8C163 /* Resources */,
+				04CFB055F43ACC58927B7CFEFE282268 /* Headers */,
+				680FF794FEE99618CD9E8FDE0ECF3EF6 /* Sources */,
+				668012DE7159EF76E8583F8239CE6012 /* Frameworks */,
+				9CFEDED12C718E5AAD8719F964EF13C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3032,20 +3025,19 @@
 		};
 		9AA21071E55852BBAC668F117483A003 /* RyScheduleCustomEdit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931D6965A707250FD3DBA395810C22E9 /* Build configuration list for PBXNativeTarget "RyScheduleCustomEdit" */;
+			buildConfigurationList = BE461C33EED8C7192CB9938E6301AA51 /* Build configuration list for PBXNativeTarget "RyScheduleCustomEdit" */;
 			buildPhases = (
-				3A4ACBDA3BBACA452CEBB00C6E2FDAD9 /* Headers */,
-				D5C1523C084C7D2B75A067F423165BAC /* Sources */,
-				F9A3BF29A743E4C2C9520153FC1F0ECD /* Frameworks */,
-				3C5B69D9B6BDA9183BD487803E52F55F /* Resources */,
+				206021B14DA5F07AE498B040228AC49A /* Headers */,
+				29957258C1A6657634B3165719A74A17 /* Sources */,
+				DDDFFBE3D0F7E73007DB53161B4D6C5B /* Frameworks */,
+				5F1EA64826D70E32CB26CB3AAFAB3CC6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				47C723F4608A2C8C5D3C1DFA4FBA71E3 /* PBXTargetDependency */,
-				DAC8450E504E308CD4AC45416E3BB4B7 /* PBXTargetDependency */,
-				F06F17FF68DB2DC04ED365425A75A8CE /* PBXTargetDependency */,
-				FC5CAE07AB50C77CCE26CB8CAF93EF9D /* PBXTargetDependency */,
+				2485D250F4F91EE5CCD033EFCEDFD900 /* PBXTargetDependency */,
+				80E6B37830657AD6E7838CC5A9D3D30D /* PBXTargetDependency */,
+				52287EF5FAD62622BEBDA8932296DDE5 /* PBXTargetDependency */,
 			);
 			name = RyScheduleCustomEdit;
 			productName = RyScheduleCustomEdit;
@@ -3132,13 +3124,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A6D5C73D0F90EAE816DA522EEA8C163 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F78B0B92516D1AF342027868B3B124C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3153,13 +3138,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C5B69D9B6BDA9183BD487803E52F55F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C3C0D2153A75BFF752279F540F7D453 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3168,6 +3146,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5108C035DB30A5B2544183D88E14A877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1EA64826D70E32CB26CB3AAFAB3CC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3196,6 +3181,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		903061F1EBC31CCFF2BB91EDA8CBF2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEDED12C718E5AAD8719F964EF13C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3355,6 +3347,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29957258C1A6657634B3165719A74A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A46F8DEFEF08BB7626277C5F9D12ACD /* RyScheduleCustomEdit-dummy.m in Sources */,
+				F08F7D6C0920760FCBDFE8ACFF3F7362 /* ScheduleCustomEditCollectionViewCell.m in Sources */,
+				682C10BF3399A31A6128E977BCA39801 /* ScheduleCustomEditView.m in Sources */,
+				F22CF7FE5A04361BE6F9C82383A787AD /* ScheduleCustomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		409C455CD4239009421A629CE4B6A407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3394,6 +3397,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				496E50D48A478C1944F6AF92C567665E /* Pods-RyScheduleCustomEdit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FF794FEE99618CD9E8FDE0ECF3EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968DFC2EC5D749881DBCEF26C46C8BA0 /* AnimatedTransitioningSupport.m in Sources */,
+				8BC3046412BDE1AFB09AFFE76651AFDE /* DrivenInteractiveTransitionSupport.m in Sources */,
+				829EBAAB379CFEE706B374C79AFEA2F3 /* RyTransitioningDelegate-dummy.m in Sources */,
+				C24CE58862CF2CF283F42C4EDB9D4702 /* TransitioningDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3535,17 +3549,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		939B00FD18EF06C04A12709B9543F9FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81A2E10ACE1EAC2E6C069F892EB8C4CA /* AnimatedTransitioningSupport.m in Sources */,
-				1901ECC16E3CB218E27B7CA87C8CE31C /* DrivenInteractiveTransitionSupport.m in Sources */,
-				4A3566C00A354357734A938E178BC8BC /* RyTransitioningDelegate-dummy.m in Sources */,
-				50E70A0D304EF9AB31CD3FFCCD8C7BC1 /* TransitioningDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAC0FAED38B46907934643F8FAD3E074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3587,17 +3590,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5C1523C084C7D2B75A067F423165BAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7A04C4A51993C92C29B58A1D7DC3CE5 /* RyScheduleCustomEdit-dummy.m in Sources */,
-				22CFA2AAB961CB2B7757068AA273ECD2 /* ScheduleCustomEditCollectionViewCell.m in Sources */,
-				3101FDC75678564B4253D20BD1B2E8EA /* ScheduleCustomEditView.m in Sources */,
-				F0B9A3970B7EE9AD602689DEB3808013 /* ScheduleCustomViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBCF3B2D9CD45C6B202458B7E83CAAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3620,11 +3612,11 @@
 			target = 88280FCCAA3AE0C7640CB30F5A2E290F /* WCDB */;
 			targetProxy = AE42B6F7E8BA96E103708108F889D27E /* PBXContainerItemProxy */;
 		};
-		47C723F4608A2C8C5D3C1DFA4FBA71E3 /* PBXTargetDependency */ = {
+		2485D250F4F91EE5CCD033EFCEDFD900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RyCyxbsThirdEX;
 			target = BC1F28D25AAD9BD2F13D62F1794D7F6C /* RyCyxbsThirdEX */;
-			targetProxy = C71C4816AA828DBA15C229302DB1FB34 /* PBXContainerItemProxy */;
+			targetProxy = 6A7D9DAFCCD8A519BE14A084DA94C266 /* PBXContainerItemProxy */;
 		};
 		4DE00F3554263F94C6EDD5317A9A6ED3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3638,11 +3630,23 @@
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = 8EC2FBE21BD41D8D75DD62DB5126F997 /* PBXContainerItemProxy */;
 		};
+		52287EF5FAD62622BEBDA8932296DDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RyTransitioningDelegate;
+			target = 1DC524CA2D5F9FCAA44546F9C57B460A /* RyTransitioningDelegate */;
+			targetProxy = 57A40004074272071142A8C0B33412BF /* PBXContainerItemProxy */;
+		};
 		7AC82F08842A6902254936A5158D1DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WCDBOptimizedSQLCipher;
 			target = 7AC2C6E1735146F1E0A04614976C5D18 /* WCDBOptimizedSQLCipher */;
 			targetProxy = 8AD191208518A654A1BB4A153A2ED789 /* PBXContainerItemProxy */;
+		};
+		80E6B37830657AD6E7838CC5A9D3D30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RyScheduleCourseOC;
+			target = A0BFBA5F98E26B23ACA392E1FC9ABF14 /* RyScheduleCourseOC */;
+			targetProxy = 2CAFA693CAB9C2D695222FDB08AEC3BD /* PBXContainerItemProxy */;
 		};
 		830EEEF425B38B21DB41B0ACF8D77821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3704,12 +3708,6 @@
 			target = 1DC524CA2D5F9FCAA44546F9C57B460A /* RyTransitioningDelegate */;
 			targetProxy = 229E0ACA8FC5193BF4054FFB01F5E3EC /* PBXContainerItemProxy */;
 		};
-		DAC8450E504E308CD4AC45416E3BB4B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RyScheduleCourseOC;
-			target = A0BFBA5F98E26B23ACA392E1FC9ABF14 /* RyScheduleCourseOC */;
-			targetProxy = 0EABDE92F90256E1E6C6333BCFDE5C58 /* PBXContainerItemProxy */;
-		};
 		DBD01668FA587E4E9391AE8CB65201F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLiteRepairKit;
@@ -3739,18 +3737,6 @@
 			name = RyCyxbsExtensionOC;
 			target = 490BB05995693B596E095755DB0DED81 /* RyCyxbsExtensionOC */;
 			targetProxy = 69B9830DDAA043325F1DA8201715AE1C /* PBXContainerItemProxy */;
-		};
-		F06F17FF68DB2DC04ED365425A75A8CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RyTransitioningDelegate;
-			target = 1DC524CA2D5F9FCAA44546F9C57B460A /* RyTransitioningDelegate */;
-			targetProxy = E089E7DDD3AFCAD9F9D5F58C2BEB29A8 /* PBXContainerItemProxy */;
-		};
-		FC5CAE07AB50C77CCE26CB8CAF93EF9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WCDB;
-			target = 88280FCCAA3AE0C7640CB30F5A2E290F /* WCDB */;
-			targetProxy = E07AF49F9E7259C0F5CC2B1563654BF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3850,41 +3836,9 @@
 			};
 			name = Release;
 		};
-		2B94BB74FA56D5E0E467E3E530686E9D /* Debug */ = {
+		2BF7608EAA94530E48E4D87574D43A3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB355271A6B2D2950569045B6F407005 /* RyTransitioningDelegate.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate.modulemap";
-				PRODUCT_MODULE_NAME = RyTransitioningDelegate;
-				PRODUCT_NAME = RyTransitioningDelegate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33E59E20FEE65FF62E0A3689867E7890 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A55F122C1EEC15F9BDB88ECD732DE218 /* RyScheduleCustomEdit.debug.xcconfig */;
+			baseConfigurationReference = 5426615B993BC64E6CE8623BAF644218 /* RyScheduleCustomEdit.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3909,10 +3863,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		39CE55045FDFA3886C9001893E49FA74 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4109,6 +4064,38 @@
 			};
 			name = Release;
 		};
+		7499F286D262ED87F563DB128FC43B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55F122C1EEC15F9BDB88ECD732DE218 /* RyScheduleCustomEdit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit.modulemap";
+				PRODUCT_MODULE_NAME = RyScheduleCustomEdit;
+				PRODUCT_NAME = RyScheduleCustomEdit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8ED32A78799DBD3B0C8ABC3FFDB6EB44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 153A386709A4C124CABEE0F8EACC9953 /* FluentDarkModeKit.debug.xcconfig */;
@@ -4238,6 +4225,39 @@
 			};
 			name = Release;
 		};
+		95F4A94F9E6997A72AC630417C987147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0387870DF41574BA82D9D18E887522C /* RyTransitioningDelegate.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RyTransitioningDelegate/RyTransitioningDelegate.modulemap";
+				PRODUCT_MODULE_NAME = RyTransitioningDelegate;
+				PRODUCT_NAME = RyTransitioningDelegate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		992A5965CE25120A410BFBF5730DF4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5BA0FCD99A7743B26B301993AA2C429 /* RyCyxbsThirdEX.release.xcconfig */;
@@ -4271,42 +4291,9 @@
 			};
 			name = Release;
 		};
-		99CCE2EA25244E4A51A1F87F26D0C6D6 /* Release */ = {
+		A32DD35CBA3E89900E4A4CC07AA0958B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5426615B993BC64E6CE8623BAF644218 /* RyScheduleCustomEdit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RyScheduleCustomEdit/RyScheduleCustomEdit.modulemap";
-				PRODUCT_MODULE_NAME = RyScheduleCustomEdit;
-				PRODUCT_NAME = RyScheduleCustomEdit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A2295B4CEAE4635387A867FDD7C65C11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0387870DF41574BA82D9D18E887522C /* RyTransitioningDelegate.release.xcconfig */;
+			baseConfigurationReference = AB355271A6B2D2950569045B6F407005 /* RyTransitioningDelegate.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4331,11 +4318,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		ADE1B982982B0935CFD45402FFC7A90F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4684,6 +4670,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		21E30DB7D0377349597BCDF60CAA75B1 /* Build configuration list for PBXNativeTarget "RyTransitioningDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32DD35CBA3E89900E4A4CC07AA0958B /* Debug */,
+				95F4A94F9E6997A72AC630417C987147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3DFAE11EBF3E75887C39ACA603C2166B /* Build configuration list for PBXNativeTarget "Pods-RyScheduleCustomEdit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4702,20 +4697,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92165894B9A2D072FCBFCC66D0873D02 /* Build configuration list for PBXNativeTarget "RyTransitioningDelegate" */ = {
+		BE461C33EED8C7192CB9938E6301AA51 /* Build configuration list for PBXNativeTarget "RyScheduleCustomEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B94BB74FA56D5E0E467E3E530686E9D /* Debug */,
-				A2295B4CEAE4635387A867FDD7C65C11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		931D6965A707250FD3DBA395810C22E9 /* Build configuration list for PBXNativeTarget "RyScheduleCustomEdit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33E59E20FEE65FF62E0A3689867E7890 /* Debug */,
-				99CCE2EA25244E4A51A1F87F26D0C6D6 /* Release */,
+				7499F286D262ED87F563DB128FC43B2F /* Debug */,
+				2BF7608EAA94530E48E4D87574D43A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

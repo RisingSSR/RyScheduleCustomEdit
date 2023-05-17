@@ -27,7 +27,6 @@ PODS:
     - RyCyxbsThirdEX
     - RyScheduleCourseOC
     - RyTransitioningDelegate
-    - WCDB (= 1.1.0)
   - RyTransitioningDelegate (0.1.0)
   - SQLiteRepairKit (1.3.0):
     - WCDBOptimizedSQLCipher (~> 1.3.0)
@@ -62,7 +61,7 @@ SPEC CHECKSUMS:
   RyCyxbsExtensionOC: e7946ae15a29de3b6e340744f4796c2f0a65c619
   RyCyxbsThirdEX: 009cdd2e17c6bf3d6ee0db58dd34c364dd18f170
   RyScheduleCourseOC: e396d0389e84cc17bac0a2771c99d9840ebc059e
-  RyScheduleCustomEdit: 9848e7c375d9d627b8bc0da8d395a4e041039620
+  RyScheduleCustomEdit: 68f4ed1ad7d58baf0d785c51c86b453500f00cb0
   RyTransitioningDelegate: e6b8f940e0ca3db4a866df45c1826059d390290f
   SQLiteRepairKit: a66145aadae91886c800f75e16f5cc6476af1a93
   WCDB: 3767097e36d1cf3179620368593ccc585278fbc1

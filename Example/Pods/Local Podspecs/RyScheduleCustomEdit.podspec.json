@@ -20,9 +20,6 @@
   },
   "source_files": "RyScheduleCustomEdit/Classes/**/*",
   "dependencies": {
-    "WCDB": [
-      "1.1.0"
-    ],
     "RyScheduleCourseOC": [
 
     ],

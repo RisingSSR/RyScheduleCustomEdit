@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RyScheduleCustomEdit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '掌邮自定义课表编辑页面'
 
 # This description is used to generate tags and improve search results.
